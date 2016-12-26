@@ -141,14 +141,9 @@ export const ejectReducer = (key) => {
 	})
 }
 
-const log = () => {
-	console.log('Yes, master!')
-}
-
 export default {
 	createDynamix,
 	injectReducer,
 	ejectReducer,
 	ActionTypes,
-	log
 }
