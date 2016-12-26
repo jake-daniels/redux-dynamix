@@ -1,0 +1,36 @@
+{
+  "name": "redux-dynamix",
+  "version": "0.1.0",
+  "description": "Tool for dynamic manipulation with reducers and state tree in redux-based applications.",
+  "main": "dist/build.js",
+  "scripts": {
+      "start": "webpack -w",
+      "build": "webpack -p",
+      "test": "ava tests/**/*.js",
+      "test-w": "ava -w tests/**/*.js",
+      "prepublish": "npm build && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake-daniels/redux-dynamix.git"
+  },
+  "keywords": [
+    "redux",
+    "reducer",
+    "dynamic"
+  ],
+  "author": "Jakub Šoltés, <soltes.jakub@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jake-daniels/redux-dynamix/issues"
+  },
+  "homepage": "https://github.com/jake-daniels/redux-dynamix#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "webpack": "^1.14.0"
+  }
+}
