@@ -141,9 +141,4 @@ export const ejectReducer = (key) => {
 	})
 }
 
-export default {
-	createDynamix,
-	injectReducer,
-	ejectReducer,
-	ActionTypes,
-}
+

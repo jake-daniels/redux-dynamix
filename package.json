@@ -4,9 +4,9 @@
   "description": "Tool for dynamic manipulation with reducers and state tree in redux-based applications.",
   "main": "dist/build.js",
   "scripts": {
-      "start": "webpack -w",
+      "start": "webpack",
       "build": "webpack -p",
-      "test": "ava tests/**/*.js",
+      "test": "ava tests/**/*.js --verbose",
       "test-w": "ava -w tests/**/*.js",
       "prepublish": "npm build && npm test"
   },
