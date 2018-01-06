@@ -29,7 +29,6 @@ const dynamize = (staticReducer) => (state = {}, action) => {
 	const nextStaticState = staticReducer(state, action)
 
 	// merge them together
-	// return {...nextStaticState, ...nextDynamicState}
 	return Object.assign({}, nextStaticState, nextDynamicState)
 }
 
@@ -142,4 +141,9 @@ export const ejectReducer = (key) => {
 	})
 }
 
-
+export default {
+	createDynamix,
+	injectReducer,
+	ejectReducer,
+	ActionTypes,
+}
