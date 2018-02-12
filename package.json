@@ -1,6 +1,6 @@
 {
   "name": "redux-dynamix",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Tool for dynamic manipulation with reducers and state tree in redux-based applications.",
   "main": "dist/build.js",
   "scripts": {
